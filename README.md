@@ -5,5 +5,6 @@ Uses threads and socket. Socket is the way to transfer files from one host to an
 
 Compile command: make all
 
-Run executables: ./dataServer -p <port> -s <thread_pool_size> -q <queue_size> -b <block_size>
+Run executables: 
+./dataServer -p <port> -s <thread_pool_size> -q <queue_size> -b <block_size>
 ./remoteClient -i <server_ip> -p <server_port> -d <directory>
